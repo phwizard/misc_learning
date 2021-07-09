@@ -1,4 +1,4 @@
-import csv
+import numpy as np, csv
 # Write your mean_datasets function here
 
 def mean_datasets(fileNames):
@@ -46,7 +46,7 @@ def mean_datasets(fileNames):
             #meanArr[i].append(meanCalc);
             #print(str(matrixRes[i][j]));
   
-  return matrixRes;
+  return np.array(matrixRes);
   #return meanArr;
   
  
